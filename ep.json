@@ -1,0 +1,16 @@
+{
+  "parts": [
+    {
+      "name": "ep_user_displayname",
+      "client_hooks": {
+        "postAceInit": "ep_user_displayname/static/js/index"
+      },
+      "hooks": {
+        "clientVars": "",
+        "handleMessage": "",
+        "init_ep_user_displayname": "",
+        "loadSettings": ""
+      }
+    }
+  ]
+}
