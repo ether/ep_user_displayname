@@ -15,7 +15,7 @@ exports.clientVars = async (hookName, {socket}) => {
   return {ep_user_displayname: {changeable: displayname == null || !!changeable}};
 };
 
-exports.handleMessage = async (hookName, {message, socket, sessionInfo: {authorId}}) => {
+exports.handleMessage = async (hookName, {message, socket, sessionInfo: {authorId} = {}}) => {
   logger.debug(hookName);
   if (settings == null) return;
   const {user = {}} = socket.client.request.session;
