@@ -1,6 +1,6 @@
 {
   "name": "ep_user_displayname",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Etherpad plugin to set each user's display name via config or authentication plugin.",
   "main": "index.js",
   "scripts": {
