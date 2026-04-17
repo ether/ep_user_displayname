@@ -57,6 +57,23 @@ This plugin has no effect unless the `requireAuthentication` setting is `true`.
     change their displayname. Note that a user's displayname is always
     changeable if their `displayname` setting is unset.
 
+## Installation
+
+Install from the Etherpad admin UI (**Admin → Manage Plugins**,
+search for `ep_user_displayname` and click *Install*), or from the Etherpad
+root directory:
+
+```sh
+pnpm run plugins install ep_user_displayname
+```
+
+> ⚠️ Don't run `npm i` / `npm install` yourself from the Etherpad
+> source tree — Etherpad tracks installed plugins through its own
+> plugin-manager, and hand-editing `package.json` can leave the
+> server unable to start.
+
+After installing, restart Etherpad.
+
 ## Copyright and License
 
 Copyright © 2022 Richard Hansen <rhansen@rhansen.org> and the
