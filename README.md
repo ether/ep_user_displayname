@@ -1,6 +1,6 @@
 ![Publish Status](https://github.com/ether/ep_user_displayname/workflows/Node.js%20Package/badge.svg) [![Backend Tests Status](https://github.com/ether/ep_user_displayname/actions/workflows/test-and-release.yml/badge.svg)](https://github.com/ether/ep_user_displayname/actions/workflows/test-and-release.yml)
 
-# ep\_user\_displayname
+# User Display Names for Etherpad
 
 Etherpad plugin that initializes the name displayed in the user list from a
 value in the user's account settings. The account settings can come from
